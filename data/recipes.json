@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "chicken-quarters",
+    "title": "Spiced Chicken Quarters",
+    "summary": "Mustard oil, yogurt and timur marinade.",
+    "main": { "name": "Chicken quarters", "grams": 4376, "unit": "kg" },
+    "ingredients": [
+      { "name": "Coriander powder", "t": "¼ cup", "q": 12, "u": "tsp" },
+      { "name": "Cumin powder", "t": "2 tbsp + 2 tsp", "q": 8, "u": "tsp" },
+      { "name": "Garam masala", "t": "2 tbsp", "q": 6, "u": "tsp" },
+      { "name": "Turmeric powder", "t": "1 tbsp", "q": 3, "u": "tsp" },
+      { "name": "Kashmiri or red chilli powder", "t": "2 tbsp + 2 tsp", "q": 8, "u": "tsp" },
+      { "name": "Black pepper", "t": "1 tbsp", "q": 3, "u": "tsp" },
+      { "name": "Mustard oil", "t": "½ cup + 1 tbsp", "q": 27, "u": "tsp" },
+      { "name": "Thick plain yogurt", "t": "½ cup", "q": 24, "u": "tsp" },
+      { "name": "Ginger paste", "t": "¼ cup", "q": 12, "u": "tsp" },
+      { "name": "Garlic paste", "t": "¼ cup", "q": 12, "u": "tsp" },
+      { "name": "Green chilli paste", "t": "2 tbsp", "q": 6, "u": "tsp" },
+      { "name": "Fresh coriander", "note": "chopped", "t": "1–1½ cups", "q": [48, 72], "u": "tsp" },
+      { "name": "Lemon or lime juice", "t": "¼ cup", "q": 12, "u": "tsp" },
+      { "name": "Honey", "t": "1 tbsp", "q": 3, "u": "tsp" },
+      { "name": "Salt", "t": "45–48 g", "q": [45, 48], "u": "g" },
+      { "name": "Timur", "note": "finely crushed", "t": "½–1 tsp", "q": [0.5, 1], "u": "tsp" },
+      { "name": "Roasted methi powder", "note": "optional", "t": "½–¾ tsp", "q": [0.5, 0.75], "u": "tsp" }
+    ]
+  },
+  {
+    "slug": "pork-momo",
+    "title": "Nepali Pork Momo",
+    "summary": "The filling, seasoned the way I like it.",
+    "main": { "name": "Ground pork", "note": "80% lean", "grams": 1814.37, "unit": "lb" },
+    "ingredients": [
+      { "name": "Cabbage", "t": "520 g", "q": 520, "u": "g" },
+      { "name": "Onion", "t": "380 g", "q": 380, "u": "g" },
+      { "name": "Green onions", "note": "chopped", "t": "1 cup", "q": 48, "u": "tsp", "approx": [7, "stalks"] },
+      { "name": "Fresh coriander", "note": "chopped", "t": "1½ cups", "q": 72, "u": "tsp" },
+      { "name": "Green chillies", "note": "finely chopped", "t": "9", "q": 9, "u": "pc" },
+      { "name": "Garlic", "t": "48 g", "q": 48, "u": "g", "approx": [16, "cloves"] },
+      { "name": "Strong local ginger", "t": "20 g", "q": 20, "u": "g" },
+      { "name": "Salt", "t": "1 tbsp + ½ tsp", "q": 3.5, "u": "tsp" },
+      { "name": "Ground black pepper", "t": "1¼ tsp", "q": 1.25, "u": "tsp" },
+      { "name": "Soy sauce", "t": "3 tbsp", "q": 9, "u": "tsp" },
+      { "name": "MSG (Ajinomoto)", "t": "1¾ tsp", "q": 1.75, "u": "tsp" },
+      { "name": "Country Crock Original", "note": "softened", "t": "3 tbsp", "q": 9, "u": "tsp" },
+      { "name": "Toasted sesame oil", "t": "1¾ tsp", "q": 1.75, "u": "tsp" }
+    ]
+  },
+  {
+    "slug": "pork-belly-sekuwa",
+    "title": "Nepali Pork Belly Sekuwa",
+    "summary": "The final marinade, for the grill.",
+    "main": { "name": "Pork belly", "grams": 1729.34, "unit": "lb" },
+    "ingredients": [
+      { "name": "Mustard oil", "t": "3 tbsp", "q": 9, "u": "tsp" },
+      { "name": "Ginger-garlic paste", "t": "4 tbsp", "q": 12, "u": "tsp" },
+      { "name": "Cumin powder", "t": "2½ tsp", "q": 2.5, "u": "tsp" },
+      { "name": "Coriander powder", "t": "2½ tsp", "q": 2.5, "u": "tsp" },
+      { "name": "Turmeric powder", "t": "½ tsp", "q": 0.5, "u": "tsp" },
+      { "name": "Kashmiri chilli powder", "t": "2 tsp", "q": 2, "u": "tsp" },
+      { "name": "Hot red chilli powder", "t": "½–1 tsp", "q": [0.5, 1], "u": "tsp" },
+      { "name": "Garam masala", "t": "1 tsp", "q": 1, "u": "tsp" },
+      { "name": "Timur", "note": "crushed", "t": "¾ tsp", "q": 0.75, "u": "tsp" },
+      { "name": "Lemon juice", "t": "1 tbsp", "q": 3, "u": "tsp" },
+      { "name": "Fine table salt", "t": "3 tsp", "q": 3, "u": "tsp", "approx": [18, "g"] }
+    ]
+  }
+]
