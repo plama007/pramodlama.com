@@ -180,4 +180,15 @@ Cadence: weekly GSC coverage check for the first two months, then monthly; full 
 
 ## 9. Verification log
 
-(Filled in after implementation.)
+2026-11-14, pre-deploy, branch `seo/2026-11-14` (not pushed, not deployed):
+
+- `python3 build.py` → "Built 5 pages", no diff in generated tool pages (build.py itself unchanged).
+- `seo_probe.py file index.html --base https://pramodlama.com/` → title 60 chars as planned; self-canonical OK;
+  JSON-LD parses: WebSite, ProfilePage, Person (+ Organization, PostalAddress); every `@id` reference resolves.
+- `seo_probe.py file` on `/tools/`, `/tools/recipes/`, `/tools/recipes/pork-momo/` → noindex (intended), self-canonical OK.
+- Local server + `seo_probe.py page http://127.0.0.1:8765/tools/` → "Googlebot may fetch /tools/" and noindex
+  present: the disallow + noindex contradiction is gone (https/canonical warnings there are only because of localhost).
+- `/favicon.ico` (image/x-icon, 16/32/48), `/favicon.svg`, `/favicon-192.png` (192×192) served with status 200.
+- Skill probe self-tests (`test_seo_probe.py`) pass.
+- Not done here (needs deploy or owner accounts): live probe re-run vs baseline, Rich Results Test, Schema validator,
+  sharing debuggers, URL Inspection, sitemap submission, PageSpeed Insights. Steps in §6.
