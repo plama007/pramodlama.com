@@ -1,0 +1,83 @@
+{
+  "target": "https://pramodlama.com/",
+  "facts": {
+    "requested": "https://pramodlama.com/",
+    "final_url": "https://pramodlama.com/",
+    "status": 200,
+    "redirects": [],
+    "fetch_seconds": 0.1,
+    "meta_robots": [],
+    "x_robots_tag": "",
+    "title": "Pramod Lama",
+    "description": "Pramod Lama: software engineer in Charlotte, NC, and maker of Tuckleaf and American Accent Decoded.",
+    "canonical": [
+      "https://pramodlama.com/"
+    ],
+    "lang": "en",
+    "h1": [
+      "I love building things that make life a little easier."
+    ],
+    "og": {
+      "og:title": "Pramod Lama",
+      "og:description": "I love building things that make life a little easier.",
+      "og:image": "https://pramodlama.com/assets/og.jpg",
+      "og:url": "https://pramodlama.com/",
+      "og:type": "profile"
+    },
+    "twitter_card": "summary_large_image",
+    "jsonld_types": [
+      "Person",
+      "Organization",
+      "PostalAddress"
+    ],
+    "hreflang": {},
+    "links": {
+      "internal": 2,
+      "external": 7,
+      "no_href": 0
+    },
+    "words_server_html": 587,
+    "robots_txt": {
+      "Googlebot": true,
+      "Bingbot": true,
+      "Google-Extended": true,
+      "OAI-SearchBot": true,
+      "GPTBot": true,
+      "ChatGPT-User": true,
+      "Claude-SearchBot": true,
+      "ClaudeBot": true,
+      "Claude-User": true,
+      "PerplexityBot": true,
+      "Applebot": true,
+      "Applebot-Extended": true,
+      "CCBot": true
+    }
+  },
+  "findings": [
+    {
+      "level": "INFO",
+      "area": "title",
+      "msg": "11 chars: 'Pramod Lama'"
+    },
+    {
+      "level": "INFO",
+      "area": "description",
+      "msg": "99 chars"
+    },
+    {
+      "level": "OK",
+      "area": "canonical",
+      "msg": "self-referencing: https://pramodlama.com/"
+    },
+    {
+      "level": "OK",
+      "area": "schema",
+      "msg": "1 JSON-LD block(s): Organization, Person, PostalAddress"
+    },
+    {
+      "level": "OK",
+      "area": "robots",
+      "msg": "Googlebot may fetch / (group '*', Allow: /)"
+    }
+  ]
+}

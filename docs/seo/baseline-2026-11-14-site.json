@@ -1,0 +1,66 @@
+{
+  "target": "https://pramodlama.com/",
+  "facts": {
+    "origin": "https://pramodlama.com",
+    "robots_txt_status": 200,
+    "ai_and_search_crawlers_on_home": {
+      "Googlebot": "allowed",
+      "Bingbot": "allowed",
+      "Google-Extended": "allowed",
+      "OAI-SearchBot": "allowed",
+      "GPTBot": "allowed",
+      "ChatGPT-User": "allowed",
+      "Claude-SearchBot": "allowed",
+      "ClaudeBot": "allowed",
+      "Claude-User": "allowed",
+      "PerplexityBot": "allowed",
+      "Applebot": "allowed",
+      "Applebot-Extended": "allowed",
+      "CCBot": "allowed"
+    },
+    "sitemap_urls": 1,
+    "llms_txt": false
+  },
+  "findings": [
+    {
+      "level": "OK",
+      "area": "hosts",
+      "msg": "http://www.pramodlama.com/ -> https://pramodlama.com/"
+    },
+    {
+      "level": "OK",
+      "area": "hosts",
+      "msg": "https://pramodlama.com/ -> https://pramodlama.com/"
+    },
+    {
+      "level": "OK",
+      "area": "hosts",
+      "msg": "http://pramodlama.com/ -> https://pramodlama.com/"
+    },
+    {
+      "level": "OK",
+      "area": "hosts",
+      "msg": "https://www.pramodlama.com/ -> https://pramodlama.com/"
+    },
+    {
+      "level": "OK",
+      "area": "robots",
+      "msg": "Googlebot may fetch / (group '*', Allow: /)"
+    },
+    {
+      "level": "WARN",
+      "area": "sitemap",
+      "msg": "https://pramodlama.com/sitemap.xml: urlset with 1 URL(s); no lastmod (fine if there is no true date)"
+    },
+    {
+      "level": "INFO",
+      "area": "ai",
+      "msg": "/llms.txt absent (no major search engine documents using it; see references/ai-search.md)"
+    },
+    {
+      "level": "OK",
+      "area": "sitemap-url",
+      "msg": "checked 1 of 1 sitemap URL(s): 1 clean, 0 with problems"
+    }
+  ]
+}
